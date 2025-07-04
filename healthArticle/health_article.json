@@ -1,0 +1,21 @@
+{
+    "patient": {
+      "id": "12345",
+      "firstName": "John",
+      "lastName": "Doe",
+      "dateOfBirth": "1990-07-15",
+      "gender": "Male",
+      "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "91234"
+      },
+      "phoneNumber": "555-123-4567",
+      "emergencyContact": {
+        "name": "Jane Doe",
+        "relationship": "Spouse",
+        "phoneNumber": "555-987-6543"
+      }
+    }
+  }
