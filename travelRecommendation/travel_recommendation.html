@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TravelBloom - Explore Dream Destination</title>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <div class="logo">✈️ TravelBloom</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Enter a destination or keyword">
+      <button onclick="performSearch()">Search</button>
+      <button onclick="resetSearch()">Clear</button>
+    </div>
+  </div>
+
+  <!-- Background and Content -->
+  <div class="hero-section">
+    <div class="hero-section" style="
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfeQEfsuNFN30EObu3WOA9cSl6Qo6FBOGz8A&s');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+">
+    <div class="hero-text">
+      <h1>EXPLORE<br>DREAM<br>DESTINATION</h1>
+      <p>It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes,
+        while pursuing the desired destination that captivates the heart and ignites a sense of wonder.</p>
+      <button class="book-btn">BOOK NOW</button>
+    </div>
+    <div id="recommendation-results" style="padding: 20px;"></div>
+
+  </div>
+
+  <script src="./travel_recommendation.js"></script>
+</body>
+</html>
